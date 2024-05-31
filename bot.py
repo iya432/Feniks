@@ -21,7 +21,7 @@ async def start(message: Message) -> None:
     await message.reply('Click!', reply_markup=webapp_builder())
 
 async def main_bot() -> None:
-    bot = Bot('7043516303:AAHKrqjGZ7ki5fgMd7MKRaDpgwhY1PZ1X-U')
+    bot = Bot('7329812978:AAGOu3wsxIoUniAD6QhHUiYgrQ96mGn12As')
     cluster = AsyncIOMotorClient(host='localhost', port=8000)
     dp = Dispatcher()
     dp.include_router(router)
